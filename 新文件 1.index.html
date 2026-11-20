@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的第一個網站</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            color: #333;
+        }
+
+        header {
+            background: #101827;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        nav {
+            background: #2563eb;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        .main {
+            text-align: center;
+            padding: 80px 20px;
+            background: white;
+        }
+
+        .main h1 {
+            font-size: 40px;
+            color: #2563eb;
+        }
+
+        .main p {
+            font-size: 18px;
+        }
+
+        button {
+            background: #2563eb;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .about {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        footer {
+            background: #101827;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>MY WEBSITE</h2>
+    </header>
+
+    <nav>
+        <a href="#home">首頁</a>
+        <a href="#about">關於我</a>
+        <a href="#contact">聯絡我們</a>
+    </nav>
+
+    <section class="main" id="home">
+        <h1>歡迎來到我的網站！</h1>
+        <p>這是我使用 Notepad 製作的第一個網站。</p>
+        <button onclick="alert('歡迎來到我的網站！')">
+            點擊看看
+        </button>
+    </section>
+
+    <section class="about" id="about">
+        <h2>關於這個網站</h2>
+        <p>這是一個簡單又漂亮的 HTML 網頁。</p>
+        <p>你可以自由修改內容和設計。</p>
+    </section>
+
+    <footer id="contact">
+        <p>© 2026 My Website. All Rights Reserved.</p>
+        <p>聯絡信箱：example@gmail.com</p>
+    </footer>
+
+</body>
+</html>
